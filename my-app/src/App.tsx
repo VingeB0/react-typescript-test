@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { PrimaryButton } from './components/buttons/PrimaryButton/PrimaryButton';
+// import { PrimaryButton } from './components/buttons/PrimaryButton/PrimaryButton';
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
           Learn React
         </a>
 
-        <PrimaryButton
-            text="This is button"
-        />
+        {/*<PrimaryButton*/}
+        {/*    text="This is button"*/}
+        {/*/>*/}
       </header>
     </div>
   );
